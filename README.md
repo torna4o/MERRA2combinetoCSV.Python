@@ -21,9 +21,13 @@ Hover to Developer Tab and click "Macros", then "Create" one.
 The Visual Basic code for this macro is below: 
 
 Dim alink As Hyperlink
+
 For Each alink In Active.Document.Hyperlinks
+
   alink.Follow
+  
 Next alink
+
 End Sub
 
 If you want to obtain Microsoft Visual Studio freely as a student to write Visual Basic or many other codes within a strong IDE, you can use this link: https://visualstudio.microsoft.com/tr/dev-essentials/
