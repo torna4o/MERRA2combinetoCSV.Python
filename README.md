@@ -34,6 +34,9 @@ If you want to obtain Microsoft Visual Studio freely as a student to write Visua
 
 When you run this macro, normally it would simultaneously open all links, but as downloading something is somewhat slower working, you can safely save all files without crashing your computer with excessive RAM use, and what you need to do is just clicking "Save" button when a pop-up window appears for saving a file. Comparing to automated wget command, it is of course more time-consuming but you can still do this job even while you are telephoning your significant other, or just want to do a chore without using your brain. It takes a few minutes to download 150 files. 
 
+! Warning: You need to be logged in via web browser to the Earth Data of NASA while doing this.
+! Warning: If you want to cancel the process for whatever reason, kill the Microsoft Word task through Task Manager.
+
 # Combining all .nc timeseries files into a one file with all variables included, then converting it into a .csv
 
 This part is explained in Python directly, with annotations included in it in "netcdftocsv.py" file I included here. What I conveniently use as a Python writing IDE is Anaconda's Spyder. You can obtain it freely from: https://www.anaconda.com/products/individual
