@@ -42,5 +42,7 @@ When you run this macro, normally it would simultaneously open all links, but as
 This part is explained in Python directly, with annotations included in it in "netcdftocsv.py" file I included here. What I conveniently use as a Python writing IDE is Anaconda's Spyder. You can obtain it freely from: https://www.anaconda.com/products/individual
 After installing it, running "netcdftocsv.py" file with necessary changes into working directory and file names (explained in the script itself), your job will be done in a minute.
 
+# Interpolating hourly timeseries data to 20 min (or any other equal interval <hour) 
 
+This is done with hourto20min.R file. For various reasons you might want to interpolate MERRA-2 time series data to <hour intervals, and to be blunt, I don't know how to do it in Python, so instead I put an R script for the same purpose. I don't think it will be difficult for anyone as it is far more straightforward to have R than Python of Visual Studio. 
 
