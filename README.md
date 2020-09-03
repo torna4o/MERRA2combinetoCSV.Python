@@ -44,5 +44,5 @@ After installing it, running "netcdftocsv.py" file with necessary changes into w
 
 # Interpolating hourly timeseries data to 20 min (or any other equal interval <hour) 
 
-This is done with hourto20min.R file. For various reasons you might want to interpolate MERRA-2 time series data to <hour intervals, and to be blunt, I don't know how to do it in Python, so instead I put an R script for the same purpose. I don't think it will be difficult for anyone as it is far more straightforward to have R than Python of Visual Studio. 
+This is done with hourto20min.R file. For various reasons you might want to interpolate MERRA-2 time series data to <hour intervals, and to be blunt, I don't know how to do it in Python, so instead I put an R script for the same purpose. I don't think it will be difficult for anyone as it is far more straightforward to have R than Python or Visual Studio. 
 
