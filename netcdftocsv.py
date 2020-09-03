@@ -31,7 +31,7 @@ import xarray
 # Here set your working directory accordingly!!!! Be careful
 # This is the file all of your .nc are present.
 
-os.chdir("C:/RSofENV/merrarad/")
+os.chdir("####")
 
 """
 'MERRA2_400 is present in all the files of .nc I want to integrate, so
@@ -56,7 +56,7 @@ ds.to_netcdf('merrarad.nc')  # This creates the '' file in your current wd
 import xarray as xr
 
 # In the following ("") specify the place of your time-series combined .nc
-nc = xr.open_dataset("C:/RSofENV/merrarad/merrarad.nc")
+nc = xr.open_dataset("####")
 
 # Now 'rad.csv' is actually name of the about to be generated .csv file
 nc.to_dataframe().to_csv('rad.csv')
