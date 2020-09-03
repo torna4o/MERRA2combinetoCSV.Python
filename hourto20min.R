@@ -11,7 +11,7 @@
 # Part 0: Loading the data and required package
 
 library(xts)
-winddata <- read.csv(file="C:/RSofENV/merrawind/wind.csv", header=TRUE, sep=",")
+winddata <- read.csv(file="####", header=TRUE, sep=",")
 
 # Part 1: The magic! xts object solution
 
@@ -33,4 +33,4 @@ y <- merge(x, x20min, fill = na.approx)
 
 # write.zoo is the proper way to print the xts object to a csv
 
-write.zoo(y, file="C:/RSofENV/merrawind/wind20min.csv", sep=",")
+write.zoo(y, file="####", sep=",")
